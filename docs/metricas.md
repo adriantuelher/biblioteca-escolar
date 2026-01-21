@@ -1,0 +1,4 @@
+- Quantidade de testes: 2
+- Cobertura de código: gerada via Jest
+- Commits realizados: (informar do GitHub)
+- Issues resolvidas: (informar do GitHub)

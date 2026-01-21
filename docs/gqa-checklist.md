@@ -1,0 +1,4 @@
+- [x] Princípios SOLID aplicados
+- [x] Testes unitários criados
+- [x] Dependências mockadas
+- [x] Code smells evitados

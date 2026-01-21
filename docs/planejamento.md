@@ -1,0 +1,5 @@
+- Definição dos requisitos
+- Implementação do domínio
+- Criação dos testes
+- Revisão de código
+- Preparação da entrega

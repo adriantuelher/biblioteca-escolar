@@ -3,7 +3,8 @@
     "jest": "^30.2.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "name": "biblioteca-escolar",
   "version": "1.0.0",

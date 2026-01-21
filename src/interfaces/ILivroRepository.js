@@ -4,3 +4,4 @@ class ILivroRepository {
   atualizar(livro) { throw new Error("Método não implementado"); }
 }
 
+module.exports = ILivroRepository;

@@ -3,3 +3,5 @@
 class INotificationService {
   send(message, user) { throw new Error("Método não implementado"); }
 }
+
+module.exports = INotificationService;

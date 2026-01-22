@@ -5,7 +5,7 @@
 // Pode ser implementado por Email, SMS, etc.
 class INotificationService {
   send(message, user) {
-    throw new Error("Método não implementado");
+    throw new Error("");
   }
 }
 

@@ -5,11 +5,11 @@
  
 class ILivroRepository {
   buscarPorId(id) {
-    throw new Error("Método não implementado");
+    throw new Error("");
   }
 
   atualizar(livro) {
-    throw new Error("Método não implementado");
+    throw new Error("");
   }
 }
 

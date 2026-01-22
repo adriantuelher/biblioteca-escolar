@@ -1,7 +1,12 @@
 // src/interfaces/INotificationService.js
-// Segregação de Interface: O sistema não precisa saber se é E-mail ou SMS
+
+// Interface de serviço de notificação.
+// Define o contrato para envio de notificações.
+// Pode ser implementado por Email, SMS, etc.
 class INotificationService {
-  send(message, user) { throw new Error("Método não implementado"); }
+  send(message, user) {
+    throw new Error("Método não implementado");
+  }
 }
 
 module.exports = INotificationService;

@@ -8,12 +8,12 @@ class MemoriaLivroRepository extends ILivroRepository {
   }
 
   buscarPorId(id) {
-    return this.livros.find(l => l.id === id);
+    return this.livros.find(livro => livro.id === id);
   }
 
   atualizar(livro) {
     const index = this.livros.findIndex(l => l.id === livro.id);
-    if (index !== -1) {
+    if (index >= 0) {
       this.livros[index] = livro;
     } else {
       this.livros.push(livro);

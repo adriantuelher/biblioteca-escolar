@@ -4,7 +4,8 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     'src/services/**/*.js',
-    'src/entities/**/*.js'
+    'src/entities/**/*.js',
+    '!src/services/ConsoleNotificationService.js'
   ],
   coverageDirectory: 'coverage',
 };

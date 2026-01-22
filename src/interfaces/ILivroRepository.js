@@ -7,7 +7,7 @@ class ILivroRepository {
   buscarPorId(id) {
     throw new Error("");
   }
-
+  
   atualizar(livro) {
     throw new Error("");
   }
